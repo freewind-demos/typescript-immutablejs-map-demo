@@ -1,7 +1,7 @@
-import {List, Iterable} from 'immutable';
+import {List} from 'immutable';
 
-const list = List(['aaa', 'bbb', 'ccc']);
+const list = List(['aaa ', 'bbb', 'ccc']);
 
-const x: Iterable<number, string> = list.map(it => it + '!');
+const x = list.map(it => it.trim() + '!');
 
 console.log(x);
