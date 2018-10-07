@@ -1,3 +1,7 @@
-import {capitalize} from 'lodash';
+import {List, Iterable} from 'immutable';
 
-console.log("Hello, " + capitalize("typescript") + "!");
+const list = List(['aaa', 'bbb', 'ccc']);
+
+const x: Iterable<number, string> = list.map(it => it + '!');
+
+console.log(x);

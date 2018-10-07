@@ -4,10 +4,13 @@
     "demo": "ts-node hello.ts"
   },
   "dependencies": {
+    "@types/immutable": "^3.8.7",
+    "immutable": "3.8.2",
     "lodash": "4.17.5"
   },
   "devDependencies": {
-    "@types/lodash": "4.14.106",
+    "@types/lodash": "^4.14.116",
+    "@types/typescript": "^2.0.0",
     "ts-node": "7.0.0",
     "typescript": "3.0.1"
   }

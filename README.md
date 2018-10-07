@@ -1,19 +1,9 @@
-TypeScript tsconfig.json Demo
-============================
+TypeScript immutablejs ".map" Demo
+==================================
 
-`tsconfig.json`是typescript项目的说明文件，指定`tsc`所需要的各个参数。
+在immutablejs中，`List.map(...)`返回的结果类型居然是`Iterable<number, string>`，这可能是数组的一种近似表现吧。
 
 ```
 npm install
-npm run tsc
-```
-
-或者使用`ts-node`:
-
-```
 npm run demo
 ```
-
-Resources
----------
-- tsconfig详解：<https://www.typescriptlang.org/docs/handbook/tsconfig-json.html>
