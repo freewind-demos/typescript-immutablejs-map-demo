@@ -1,16 +1,16 @@
 {
-  "scripts": {
-    "tsc": "tsc && node hello.js",
-    "demo": "ts-node hello.ts"
-  },
-  "dependencies": {
-    "immutable": "4.0.0-rc.10",
-    "lodash": "4.17.5"
-  },
-  "devDependencies": {
-    "@types/lodash": "^4.14.116",
-    "@types/typescript": "^2.0.0",
-    "ts-node": "7.0.0",
-    "typescript": "3.0.1"
-  }
+    "scripts": {
+        "tsc": "tsc && node hello.js",
+        "start": "ts-node hello.ts"
+    },
+    "dependencies": {
+        "immutable": "4.0.0-rc.10",
+        "lodash": "4.17.5"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.116",
+        "@types/typescript": "^2.0.0",
+        "ts-node": "7.0.0",
+        "typescript": "3.0.1"
+    }
 }
